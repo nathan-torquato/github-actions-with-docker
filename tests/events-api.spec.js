@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 test('event creation', async ({ request }) => {
-  const testTitle = 'Test event';
+  const testTitle = 'Test event!';
   const response = await request.post('/', {
     data: {
       title: testTitle,
